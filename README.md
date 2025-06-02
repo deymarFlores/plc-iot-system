@@ -6,20 +6,22 @@ Una plataforma IoT para monitoreo y control de PLC Siemens S7-1200, con backend 
 
 ---
 
-## 📑 Tabla de contenidos
-
-- [Sobre el proyecto](#sobre-el-proyecto)
-- [Construido con](#construido-con)
-- [Empezar](#empezar)
-- [Uso](#uso)
-- [Licencia](#licencia)
-- [Contacto](#contacto)
-- [Reconocimientos](#reconocimientos)
+<!-- HTML menu -->
+<h2>📑 Tabla de contenidos</h2>
+<ul>
+  <li><a href="#sobre-el-proyecto">Sobre el proyecto</a></li>
+  <li><a href="#construido-con">Construido con</a></li>
+  <li><a href="#empezar">Empezar</a></li>
+  <li><a href="#uso">Uso</a></li>
+  <li><a href="#licencia">Licencia</a></li>
+  <li><a href="#contacto">Contacto</a></li>
+  <li><a href="#reconocimientos">Reconocimientos</a></li>
+</ul>
 
 ---
 
 ## 📌 Sobre el proyecto
-(#sobre-el-proyecto)
+
 Este sistema busca centralizar el monitoreo de variables industriales y control remoto del PLC S7-1200 usando tecnologías modernas y web accesible.
 
 ✅ Beneficios:
