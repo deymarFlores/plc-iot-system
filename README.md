@@ -92,3 +92,8 @@ Correo: deymarflores127@gmail.com
 
 ---
 
+## 🙌 Reconocimientos
+
+- [Plantilla Best-README](https://github.com/othneildrew/Best-README-Template)
+- [Node-RED Docs](https://nodered.org/docs/)
+- [Snap7 Examples](https://github.com/mathiask88/node-snap7)
