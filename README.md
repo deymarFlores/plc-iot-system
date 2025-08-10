@@ -1,6 +1,6 @@
 # 🚀 PLC IoT Dashboard
 
-Una plataforma IoT para monitoreo y control de PLC Siemens S7-1200, con backend en **Node.js (Express)** y frontend en **Vue.js**. Integra **Node-RED** para comunicación en tiempo real.
+Una plataforma IoT para monitoreo y control de PLC Siemens S7-1200, con backend en Python (Flask) y frontend en React.js. Integra MQTT para comunicación en tiempo real y compatibilidad con múltiples protocolos industriales.
 
 [Ver demo](#) · [Reportar error](#) · [Solicitar función](#)
 
@@ -13,7 +13,6 @@ Una plataforma IoT para monitoreo y control de PLC Siemens S7-1200, con backend 
 - [⚙️ Empezar](#️-empezar)
 - [🧪 Uso](#-uso)
 - [📝 Licencia](#-licencia)
-- [📬 Contacto](#-contacto)
 - [🙌 Reconocimientos](#-reconocimientos)
 
 ---
@@ -23,18 +22,18 @@ Una plataforma IoT para monitoreo y control de PLC Siemens S7-1200, con backend 
 Este sistema busca centralizar el monitoreo de variables industriales y control remoto del PLC S7-1200 usando tecnologías modernas y web accesible.
 
 ✅ Beneficios:
-- Comunicación con PLC vía Node-RED o Snap7.
-- API RESTful para conectar con interfaces web o móviles.
-- Dashboard con Vue.js para visualizar en tiempo real.
+- Comunicación con PLC vía python-snap7, opcua y pymodbus.
+- API RESTful con Flask para conectar con interfaces web o móviles.
+- Dashboard en tiempo real con React.js.
+- Integración con MQTT para notificaciones y control distribuido.
 
 ---
 
 ## 🛠️ Construido con
 
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [Vue.js](https://vuejs.org/)
-- [Node-RED](https://nodered.org/)
+- [Python](https://www.python.org/)
+- [Framework por definir](https://404/)
+- [React.js](https://react.dev/)
 - [Snap7 (opcional)](http://snap7.sourceforge.net/)
 - [MQTT (opcional)](https://mqtt.org/)
 
@@ -44,9 +43,9 @@ Este sistema busca centralizar el monitoreo de variables industriales y control 
 
 ### Prerrequisitos
 
-- Node.js v18+
-- npm v9+
-- (Opcional) Node-RED instalado localmente
+- Python v3.7+
+- pip 20+
+- npm 9+ para frontend
 
 ### Instalación
 
@@ -57,16 +56,21 @@ git clone https://github.com/deymarFlores/plc-iot-dashboard.git
 cd plc-iot-dashboard/backend
 ```
 
+#### Crear entorno virtual
+```bash
+python -m venv venv
+source venv/bin/activate   # Linux/Mac
+venv\Scripts\activate      # Windows
+```
 
 #### Instalar dependencias
 ```bash
-npm install
+pip install -r requirements.txt
 ```
-
 
 #### Iniciar servidor
 ```bash
-npm run dev
+python app.py
 ```
 
 ---
@@ -76,7 +80,7 @@ npm run dev
 Puedes probar los endpoints con herramientas como Postman o cURL.
 
 ```bash
-GET http://localhost:3000/api/plc/status
+GET http://localhost:5000/api/plc/status
 ```
 
 En el frontend, se consumen los datos usando Axios y se renderizan en tiempo real.
