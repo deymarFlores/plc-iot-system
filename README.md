@@ -90,7 +90,7 @@ En el frontend, se consumen los datos usando Axios y se renderizan en tiempo rea
 ## 📝 Licencia
 
 Distribuido bajo la licencia **Creative Commons BY-NC 4.0**.  
-Uso no comercial únicamente.  
+Uso no comercial.
 Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.
 
 ---
