@@ -91,14 +91,6 @@ Consulta el archivo [`LICENSE`](./LICENSE) para más detalles.
 
 ---
 
-## 📬 Contacto
-
-**Deymar Flores**  
-GitHub: [@deymarFlores](https://github.com/deymarFlores)  
-Correo: deymarflores127@gmail.com
-
----
-
 ## 🙌 Reconocimientos
 
 - [Plantilla Best-README](https://github.com/othneildrew/Best-README-Template)
