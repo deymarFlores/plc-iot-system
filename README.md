@@ -50,19 +50,22 @@ Este sistema busca centralizar el monitoreo de variables industriales y control 
 
 ### Instalación
 
+
+#### Clonar repositorio
 ```bash
-# Clonar repositorio
 git clone https://github.com/deymarFlores/plc-iot-dashboard.git
 cd plc-iot-dashboard/backend
 ```
 
+
+#### Instalar dependencias
 ```bash
-# Instalar dependencias
 npm install
 ```
 
+
+#### Iniciar servidor
 ```bash
-# Iniciar servidor
 npm run dev
 ```
 
