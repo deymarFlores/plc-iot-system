@@ -9,8 +9,8 @@ Una plataforma IoT para monitoreo y control de PLC Siemens S7-1200, con backend 
 ## 📑 Tabla de contenidos
 
 - [📌 Sobre el proyecto](#-sobre-el-proyecto)
+- [🧪 Documentación adicional](#-documentacion-adicional)
 - [🛠️ Construido con](#️-construido-con)
-- [🧪 Documentación adicional](#️-documentación-adicional)
 - [⚙️ Empezar](#️-empezar)
 - [🧪 Uso](#-uso)
 - [📝 Licencia](#-licencia)
@@ -30,6 +30,13 @@ Este sistema busca centralizar el monitoreo de variables industriales y control 
 
 ---
 
+## 🧪 Documentación adicional
+
+La documentación adicional respecto del proyecto se encuentra en el siguiente link:
+https://drive.google.com/drive/folders/1CSwpqyMXLAPhpk5ZtZdBg0tX4M-93k1c?usp=sharing
+
+---
+
 ## 🛠️ Construido con
 
 - [Python](https://www.python.org/)
@@ -37,13 +44,6 @@ Este sistema busca centralizar el monitoreo de variables industriales y control 
 - [React.js](https://react.dev/)
 - [Snap7 (opcional)](http://snap7.sourceforge.net/)
 - [MQTT (opcional)](https://mqtt.org/)
-
----
-
-## 🧪 Documentación adicional
-
-La documentación adicional respecto del proyecto se encuentra en el siguiente link:
-https://drive.google.com/drive/folders/1CSwpqyMXLAPhpk5ZtZdBg0tX4M-93k1c?usp=sharing
 
 ---
 
