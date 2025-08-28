@@ -39,6 +39,19 @@ Este sistema busca centralizar el monitoreo de variables industriales y control 
 
 ---
 
+## 🧪 Documentación adicional
+
+La documentación adicional respecto del proyecto se encuentra en el siguiente link:
+https://drive.google.com/drive/folders/1CSwpqyMXLAPhpk5ZtZdBg0tX4M-93k1c?usp=sharing
+
+```bash
+GET http://localhost:5000/api/plc/status
+```
+
+En el frontend, se consumen los datos usando Axios y se renderizan en tiempo real.
+
+---
+
 ## ⚙️ Empezar
 
 ### Prerrequisitos
